@@ -29,6 +29,8 @@ setup(
         'django-guardian',
         'django-mptt',
         'jsonfield',
+    ],
+    dependency_links=[
         'https://bitbucket.org/zamboni/django-utils/get/tip.zip',
     ],
     classifiers=[
