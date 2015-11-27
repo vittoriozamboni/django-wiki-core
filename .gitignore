@@ -37,6 +37,7 @@ pip-delete-this-directory.txt
 htmlcov/
 .tox/
 .coverage
+.coverage_html
 .coverage.*
 .cache
 nosetests.xml
@@ -55,3 +56,18 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# Mac Os X
+*.DS_Store
+
+#Aptana
+.project
+.pydevproject
+.settings
+
+#PyCharm
+.idea/*
+
+# testproject local files
+testproject/static*
+testproject/db.sqlite3
